@@ -1,8 +1,8 @@
 'use strict';
 
-angular.module('insight.qtumcorelib').factory('QtumCoreLib',
+angular.module('insight.tachacoincorelib').factory('TachacoinCoreLib',
     function() {
-        var QtumCoreLib = require('qtumcore-lib');
-        return QtumCoreLib;
+        var TachacoinCoreLib = require('tachacoincore-lib');
+        return TachacoinCoreLib;
     });
 
